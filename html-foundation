@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubham Sharma - Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Shubham Sharma</h1>
+        <p>Content Writer | SEO Expert | Team Leader</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello, I'm Shubham Sharma, a 25-year-old content writer from Mandi, Himachal Pradesh. I have a passion for writing, SEO, and team leadership, with 1.5 years of experience in content writing and on-page SEO.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Content Writing</li>
+            <li>On-Page SEO</li>
+            <li>Backlink Strategy</li>
+            <li>Team Leadership</li>
+        </ul>
+    </section>
+
+    <section id="experience">
+        <h2>Work Experience</h2>
+        <p><strong>Content Writer | SEO Expert</strong> (1.5 years of experience)</p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p>B.Sc Non-Medical, D.M. College, Panjab University</p>
+    </section>
+
+    <footer id="contact">
+        <h2>Contact</h2>
+        <p>Email: shubham@example.com</p>
+        <p>LinkedIn: <a href="#">linkedin.com/in/shubham-sharma</a></p>
+    </footer>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
