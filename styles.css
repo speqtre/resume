@@ -1,8 +1,9 @@
+/* Base Styling */
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   line-height: 1.6;
-  background-color: #fdfdfd;
+  background-color: #fefefe;
   color: #333;
 }
 
@@ -12,6 +13,7 @@ body {
   padding: 20px;
 }
 
+/* Header */
 header {
   background-color: #007acc;
   color: white;
@@ -25,7 +27,7 @@ header h1 {
 }
 
 header h2 {
-  margin: 5px 0 10px 0;
+  margin: 5px 0 15px;
   font-weight: 400;
 }
 
@@ -35,19 +37,28 @@ header a {
   margin: 0 5px;
 }
 
+header .contact, header .links {
+  font-size: 0.95rem;
+}
+
+/* Sections */
 section {
-  padding: 40px 20px;
+  padding: 40px 0;
   border-bottom: 1px solid #eee;
 }
 
 h3 {
   color: #007acc;
   margin-bottom: 15px;
+  border-bottom: 2px solid #007acc;
+  display: inline-block;
+  padding-bottom: 3px;
 }
 
 .job h4 {
   margin: 0 0 5px 0;
   font-weight: 500;
+  color: #222;
 }
 
 .job span {
@@ -74,8 +85,15 @@ h3 {
   padding: 8px 12px;
   border-radius: 20px;
   font-size: 0.9rem;
+  transition: transform 0.2s, background-color 0.2s;
 }
 
+.skill-list li:hover {
+  transform: scale(1.05);
+  background-color: #005fa3;
+}
+
+/* Footer */
 footer {
   text-align: center;
   padding: 20px;
@@ -88,6 +106,7 @@ footer a {
   color: #007acc;
 }
 
+/* Responsive */
 @media(max-width: 600px){
   header h1 {
     font-size: 2rem;
