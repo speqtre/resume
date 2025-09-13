@@ -88,6 +88,41 @@ h3 {
   color: #ffffff;
   transform: scale(1.05);
 }
+.skill-category {
+  margin-bottom: 25px;
+}
+
+.skill-category h4 {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+/* Keep skill badges styling */
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+.skill-list li {
+  background-color: #cce0f5; /* soft background */
+  color: #3a7ca5;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  transition: all 0.2s;
+}
+
+.skill-list li:hover {
+  background-color: #3a7ca5;
+  color: #ffffff;
+  transform: scale(1.05);
+}
+
 
 /* Links */
 a {
