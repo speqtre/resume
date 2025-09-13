@@ -9,10 +9,12 @@ body {
 
 /* Header */
 header {
-  background-color: #f8f9fa; /* light grey */
+  background-color: #E6F0FA; /* soft blue */
   color: #222;
   text-align: center;
   padding: 40px 20px;
+  border-bottom: 1px solid #a0c4de; /* subtle separation from body */
+
 }
 
 header h1 {
