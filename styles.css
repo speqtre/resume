@@ -1,42 +1,99 @@
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    line-height: 1.6;
-    padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  line-height: 1.6;
+  background-color: #fdfdfd;
+  color: #333;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 header {
-    text-align: center;
-    padding: 20px;
+  background-color: #007acc;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
 }
 
-nav a {
-    margin: 0 15px;
-    text-decoration: none;
-    color: #007bff;
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header h2 {
+  margin: 5px 0 10px 0;
+  font-weight: 400;
+}
+
+header a {
+  color: #fff;
+  text-decoration: underline;
+  margin: 0 5px;
 }
 
 section {
-    margin: 40px 0;
+  padding: 40px 20px;
+  border-bottom: 1px solid #eee;
 }
 
-h2 {
-    color: #333;
-    border-bottom: 2px solid #007bff;
-    padding-bottom: 10px;
+h3 {
+  color: #007acc;
+  margin-bottom: 15px;
+}
+
+.job h4 {
+  margin: 0 0 5px 0;
+  font-weight: 500;
+}
+
+.job span {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.job ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+.skill-list li {
+  background-color: #007acc;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-size: 0.9rem;
 }
 
 footer {
-    text-align: center;
-    padding: 20px;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  background-color: #f4f4f4;
 }
 
-a {
-    color: #007bff;
-    text-decoration: none;
+footer a {
+  text-decoration: none;
+  color: #007acc;
 }
 
-a:hover {
-    text-decoration: underline;
+@media(max-width: 600px){
+  header h1 {
+    font-size: 2rem;
+  }
+
+  .skill-list {
+    flex-direction: column;
+  }
 }
