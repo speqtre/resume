@@ -35,11 +35,15 @@ header a {
 header .contact, header .links {
   font-size: 0.95rem;
 }
-
+.container {
+  max-width: 900px; /* controls width */
+  margin: 0 auto;   /* centers the content horizontally */
+  padding: 20px;    /* breathing space around content */
 /* Sections */
 section {
   padding: 40px 0;
   border-bottom: 1px solid #e0e0e0;
+ }
 }
 
 h3 {
