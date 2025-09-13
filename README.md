@@ -60,9 +60,6 @@ Team Collaboration, Proficiency in English, Multi-tasking, Learning Attitude, Ti
 
 ## 🌐 Live Resume
 Check out my **interactive resume** here:  
-[➡️ View Resume](https://<your-username>.github.io/<repo-name>/)  
+[➡️ View Resume](https://speqtre.github.io/resume/)  
 
 ---
-
-## ⚡ GitHub Stats (Optional)
-![Shubham's GitHub Stats](https://github-readme-stats.vercel.app/api?username=<your-username>&show_icons=true&theme=radical)
