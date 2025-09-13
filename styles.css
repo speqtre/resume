@@ -3,20 +3,14 @@ body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   line-height: 1.6;
-  background-color: #fefefe;
+  background-color: #ffffff;
   color: #333;
-}
-
-.container {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 20px;
 }
 
 /* Header */
 header {
-  background-color: #007acc;
-  color: white;
+  background-color: #f8f9fa; /* light grey */
+  color: #222;
   text-align: center;
   padding: 40px 20px;
 }
@@ -29,10 +23,11 @@ header h1 {
 header h2 {
   margin: 5px 0 15px;
   font-weight: 400;
+  color: #555;
 }
 
 header a {
-  color: #fff;
+  color: #3a7ca5;
   text-decoration: underline;
   margin: 0 5px;
 }
@@ -44,13 +39,13 @@ header .contact, header .links {
 /* Sections */
 section {
   padding: 40px 0;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #e0e0e0;
 }
 
 h3 {
-  color: #007acc;
+  color: #3a7ca5;
   margin-bottom: 15px;
-  border-bottom: 2px solid #007acc;
+  border-bottom: 2px solid #a0c4de;
   display: inline-block;
   padding-bottom: 3px;
 }
@@ -80,17 +75,28 @@ h3 {
 }
 
 .skill-list li {
-  background-color: #007acc;
-  color: white;
+  background-color: #cce0f5; /* soft background */
+  color: #3a7ca5;
   padding: 8px 12px;
   border-radius: 20px;
   font-size: 0.9rem;
-  transition: transform 0.2s, background-color 0.2s;
+  transition: all 0.2s;
 }
 
 .skill-list li:hover {
+  background-color: #3a7ca5;
+  color: #ffffff;
   transform: scale(1.05);
-  background-color: #005fa3;
+}
+
+/* Links */
+a {
+  color: #3a7ca5;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #1f5d7a;
 }
 
 /* Footer */
@@ -98,12 +104,13 @@ footer {
   text-align: center;
   padding: 20px;
   font-size: 0.9rem;
-  background-color: #f4f4f4;
+  background-color: #f8f9fa;
+  color: #222;
 }
 
 footer a {
   text-decoration: none;
-  color: #007acc;
+  color: #3a7ca5;
 }
 
 /* Responsive */
